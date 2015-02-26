@@ -5,7 +5,9 @@
   "author": "Hack Reactor",
   "license": "Copyright 2014, Hack Reactor. All rights reserved.",
   "dependencies": {
-    "http-request": "^0.7.0"
+    "http-request": "^0.7.0",
+    "sequelize": "^2.0.3",
+    "sqlite3": "^3.0.5"
   },
   "devDependencies": {
     "chai": "^1.9.0",
