@@ -68,15 +68,18 @@ exports.getExternalURLandInsert = function(url) {
 
 
 
-
+//Downloads latest versions of the URLs in DB, will be executed from Cron job
 exports.databaseUpdate = function() {
   sequelize.query("SELECT DISTINCT url FROM htmls", { type: sequelize.QueryTypes.SELECT})
     .then(function(urls) {
       urls.forEach(function(url) {
-        //call helpers.collectData
+        console.log("url is ", url);
         exports.getExternalURLandInsert(url);
-      })
-    })
+      });
+    });
+  //write to log file that cron job was performed
+  var logUpdate = "Cronjob downloaded newest versions of URL in DB on: " + new Date();
+  fs.writeFile('./archives/cronlog.txt', logUpdate);
 };
 
-//exports.databaseUpdate();
+
