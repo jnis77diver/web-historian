@@ -42,9 +42,6 @@ exports.databaseQuery = function(url, req, res, callback) {
       if (html[0] !== undefined) {
         helpers.sendResponse(res, html[0].html, 201);
       } else {
-        console.log('++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++');
-        console.log('it failed');
-        console.log('++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++');
         exports.getExternalURLandInsert(url);
         //redirect to a page (in this case loading.html page)
         res.writeHead(303, {Location: 'loading.html'});
@@ -82,4 +79,4 @@ exports.databaseUpdate = function() {
     })
 };
 
-exports.databaseUpdate();
+//exports.databaseUpdate();

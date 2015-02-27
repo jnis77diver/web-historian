@@ -4,26 +4,9 @@
     <list default="true" id="a23b8993-25a2-4092-945e-d3f8ba2b92c6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database.sqlite" afterPath="$PROJECT_DIR$/database.sqlite" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helpers/archive-helper-improved.js" afterPath="$PROJECT_DIR$/helpers/archive-helper-improved.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/basic-server.js" afterPath="$PROJECT_DIR$/web/basic-server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/http-helpers.js" afterPath="$PROJECT_DIR$/web/http-helpers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/public/index.html" afterPath="$PROJECT_DIR$/web/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/public/loading.html" afterPath="$PROJECT_DIR$/web/public/loading.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/request-handler.js" afterPath="$PROJECT_DIR$/web/request-handler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/public/styles.css" afterPath="$PROJECT_DIR$/web/public/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
-    <list id="6fcd40a1-353b-4527-b725-3af6d7530c4e" name="New changelist" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/2015-02-web-historian.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/2015_02_web_historian_node_modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FLOOBITS_README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list id="6fcd40a1-353b-4527-b725-3af6d7530c4e" name="New changelist" comment="" />
     <ignored path="2015-02-web-historian.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,8 +62,8 @@
       <file leaf-file-name="http-helpers.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/http-helpers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5620438" vertical-offset="1074" max-vertical-offset="1485">
-              <caret line="87" column="45" selection-start-line="87" selection-start-column="45" selection-end-line="87" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.88372093" vertical-offset="1038" max-vertical-offset="1485">
+              <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -89,8 +72,8 @@
       <file leaf-file-name="archive-helper-improved.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/helpers/archive-helper-improved.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.444445" vertical-offset="480" max-vertical-offset="1350">
-              <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+            <state vertical-scroll-proportion="3.3333333" vertical-offset="750" max-vertical-offset="1305">
+              <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -121,8 +104,8 @@
         <option value="$PROJECT_DIR$/web/public/styles.css" />
         <option value="$PROJECT_DIR$/web/basic-server.js" />
         <option value="$PROJECT_DIR$/web/request-handler.js" />
-        <option value="$PROJECT_DIR$/helpers/archive-helper-improved.js" />
         <option value="$PROJECT_DIR$/web/http-helpers.js" />
+        <option value="$PROJECT_DIR$/helpers/archive-helper-improved.js" />
       </list>
     </option>
   </component>
@@ -348,7 +331,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20563847" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47595358" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -358,7 +341,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Floobits Chat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24418604" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Floobits Chat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24292845" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32890365" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -392,10 +375,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/helpers/archive-helper-improved.js</url>
-          <line>44</line>
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/helpers/archive-helper-improved.js</url>
           <line>42</line>
@@ -711,16 +690,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/helpers/archive-helper-improved.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.444445" vertical-offset="480" max-vertical-offset="1350">
-          <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+        <state vertical-scroll-proportion="3.3333333" vertical-offset="750" max-vertical-offset="1305">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/http-helpers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5620438" vertical-offset="1074" max-vertical-offset="1485">
-          <caret line="87" column="45" selection-start-line="87" selection-start-column="45" selection-end-line="87" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.88372093" vertical-offset="1038" max-vertical-offset="1485">
+          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
           <folding />
         </state>
       </provider>
