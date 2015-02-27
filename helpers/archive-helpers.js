@@ -1,3 +1,5 @@
+//WE ARE NOT USING THIS FILE. SEE ARCHIVE-HELPER-IMPROVED INSTEAD
+
 var fs = require('fs');
 var path = require('path');
 var _ = require('underscore');
