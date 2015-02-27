@@ -5,7 +5,6 @@ var httpHelper = require('./http-helpers');
 
 var actions = {
   "GET": function(req,res,indexString){
-    console.log("test get");
     httpHelper.indexResponse(req, res, indexString);
   },
   "POST": function(req,res){
@@ -14,19 +13,18 @@ var actions = {
     });
   },
   "OPTIONS": function(req, res){
-    console.log("test options");
     httpHelper.sendResponse(res, null);
   }
   //"DELETE",
   //"PUT":
 };
 
-
-exports.handleRequest = function (req, res) {
+//handles requests for specific methods
+exports.handleRequest = function (req, res, urlPath) {
   var action = actions[req.method];
   if (action){
-    console.log("test exports");
-    action(req, res, '/index.html');
+    urLPath = urlPath === '/'? 'index.html': urLPath;
+    action(req, res, urLPath);
   }
   else{
     httpHelper.sendResponse(res, 'Not Found', 404);

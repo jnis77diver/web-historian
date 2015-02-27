@@ -37,15 +37,18 @@ var HTML = sequelize.define('html', {
 //});
 
 exports.databaseQuery = function(url, req, res, callback) {
-
-  sequelize.query("SELECT url FROM htmls WHERE url = " + "'" + url + "'" + " AND date(createdAt) = date('now')", { type: sequelize.QueryTypes.SELECT}).then(function(html) {
-      if (html) {
-        helpers.sendResponse(res, html.html, 201);
-      }
-      //else, archive URL and return loading page
-      else {
+  //query the html table for urls that were created today
+  sequelize.query("SELECT html FROM htmls WHERE url = " + "'" + url + "'" + " AND date(createdAt) = date('now')", { type: sequelize.QueryTypes.SELECT}).then(function(html) {
+      if (html[0] !== undefined) {
+        helpers.sendResponse(res, html[0].html, 201);
+      } else {
+        console.log('++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++');
+        console.log('it failed');
+        console.log('++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++');
         exports.getExternalURLandInsert(url);
-        callback(req, res, "loading.html");
+        //redirect to a page (in this case loading.html page)
+        res.writeHead(303, {Location: 'loading.html'});
+        res.end();
       }
   });
 };
@@ -78,3 +81,5 @@ exports.databaseUpdate = function() {
       })
     })
 };
+
+exports.databaseUpdate();

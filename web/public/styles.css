@@ -1,4 +1,18 @@
 body {
   margin : 0px;
   font-family: arial, sans-serif;
+  color: #333333;
+  background-color:#dedede;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 5px 15px;
+  height: 500px;
+  background-color: #ffffff;
+}
+
+h1 {
+    color: blue;
 }

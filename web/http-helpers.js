@@ -41,7 +41,7 @@ exports.indexResponse = function(req, res, indexString){
       contentType = 'text/css';
       break;
   }
-
+  //Test whether or not the given path exists by checking with the file system
   fs.exists(filePath, function(exists) {
 
     if (exists) {
@@ -85,11 +85,9 @@ exports.collectData = function(req,res, callback){
       fullURL = "http://" + fullURL;
     }
     //query database for URL, if exists return index.html of
-    archive.databaseQuery(fullURL, req, res, callback);
+    archive.databaseQuery(fullURL, req, res);
     //archive.databaseUpdate();
   });
 
 };
 
-
-// As you progress, keep thinking about what helper functions you can put here!
